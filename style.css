@@ -230,7 +230,7 @@ main {
     align-items: center;
     justify-content: flex-start;
 
-    border: 2px solid #838383;
+    border: 2px solid #83838338;
     border-radius: 15px;
     box-shadow: inset 4px -4px 8px rgba(128, 128, 128, 0.471);
     
@@ -314,7 +314,7 @@ main {
 }
 
 .icono {
-    width: 55px;
+    width: 64px;
     height: auto;
 }
 
