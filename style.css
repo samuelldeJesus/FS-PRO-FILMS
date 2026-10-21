@@ -68,6 +68,7 @@ main {
     width: 100%;
     height: clamp(430px, 58svh, 560px);
     flex-shrink: 0;
+    height: 500px;
 
     background-image: url("img/fundo.png");
     background-position: center top;
@@ -199,7 +200,7 @@ main {
     width: 100%;
     height: auto;
     margin-top: 38px;
-    padding: 0 10px;
+    padding: 0 20px;
 }
 
 .linea-vantaja {
@@ -219,7 +220,7 @@ main {
     justify-content: space-evenly;
 
     width: 100%;
-    gap: 4px;
+    gap: 10px;
 }
 
 .vantajas-caja {
@@ -229,8 +230,13 @@ main {
     align-items: center;
     justify-content: flex-start;
 
+    border: 2px solid #838383;
+    border-radius: 15px;
+    box-shadow: inset 4px -4px 8px rgba(128, 128, 128, 0.471);
+    
+
     min-width: 0;
-    padding: 10px 3px;
+    padding: 5px 3px;
     text-align: center;
 }
 
@@ -240,6 +246,7 @@ main {
     font-size: clamp(10px, 2.8vw, 13px);
     line-height: 1.4;
     overflow-wrap: anywhere;
+    letter-spacing: 1.1px;
 }
 
 .vantajas-caja i {
@@ -289,6 +296,7 @@ main {
     margin: 24px auto 0;
     padding: 0 20px;
     text-align: center;
+    letter-spacing: 1.2px;
 }
 
 .contacto a {
@@ -303,6 +311,11 @@ main {
         #555,
         #292929
     );
+}
+
+.icono {
+    width: 55px;
+    height: auto;
 }
 
 /* =========================
@@ -338,6 +351,8 @@ main {
     background: #ababab
 
 }
+
+
 
 /* =========================
    9. MÓVILES MUY PEQUEÑOS
